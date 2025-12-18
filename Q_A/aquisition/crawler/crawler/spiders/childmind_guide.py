@@ -17,7 +17,7 @@ class ChildmindGuideSpider(scrapy.Spider):
     
     def parse(self, response):
         # Save full HTML
-        with open(f"{self.destination_folder}\child_mind.html", "wb") as f:
+        with open(f"{self.destination_folder}/child_mind.html", "wb") as f:
             f.write(response.body)
 
         self.log("HTML saved successfully")
