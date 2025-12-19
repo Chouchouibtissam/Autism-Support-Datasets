@@ -1,0 +1,71 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Ven. Déc. 19 03:35:48 2025
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Fichier de contrôle :   Autism_Screening.ctl
+Jeu de caractères AL32UTF8 indiqué pour toutes les entrées.
+
+Fichier de données :      ..\\data\\Autism_test_clean.csv
+  Fichier des enregistrements refusés :     Autism_test_clean.bad
+  Fichier de rebut :  aucune spécification
+
+ (Allouer tous les rebuts)
+
+Nombre à charger : ALL
+Nombre à ignorer : 1
+Erreurs autorisés : 50
+Tableau de variables :     250 lignes, maximum de 1048576 octets
+Continuation :    aucune spécification
+Chemin utilisé:      Classique
+
+Table SYSTEM.AUTISM_SCREENING, chargé à partir de chaque enregistrement physique.
+Option d'insertion en vigueur pour cette table : INSERT
+option TRAILING NULLCOLS effective
+
+   Nom de colonne                  Position   Long  Type de données encadr.
+------------------------------ ---------- ----- ---- ---- ---------------------
+A1_SCORE                            FIRST     *   ,  O(") CHARACTER            
+A2_SCORE                             NEXT     *   ,  O(") CHARACTER            
+A3_SCORE                             NEXT     *   ,  O(") CHARACTER            
+A4_SCORE                             NEXT     *   ,  O(") CHARACTER            
+A5_SCORE                             NEXT     *   ,  O(") CHARACTER            
+A6_SCORE                             NEXT     *   ,  O(") CHARACTER            
+A7_SCORE                             NEXT     *   ,  O(") CHARACTER            
+A8_SCORE                             NEXT     *   ,  O(") CHARACTER            
+A9_SCORE                             NEXT     *   ,  O(") CHARACTER            
+A10_SCORE                            NEXT     *   ,  O(") CHARACTER            
+AGE                                  NEXT     *   ,  O(") CHARACTER            
+GENDER                               NEXT     *   ,  O(") CHARACTER            
+ETHNICITY                            NEXT     *   ,  O(") CHARACTER            
+JAUNDICE                             NEXT     *   ,  O(") CHARACTER            
+AUTISM                               NEXT     *   ,  O(") CHARACTER            
+COUNTRY                              NEXT     *   ,  O(") CHARACTER            
+RESULT                               NEXT     *   ,  O(") CHARACTER            
+RELATION                             NEXT     *   ,  O(") CHARACTER            
+CLASS_ASD                            NEXT     *   ,  O(") CHARACTER            
+AGE_GROUP                            NEXT     *   ,  O(") CHARACTER            
+
+la valeur utilisée pour le paramètre ROWS est passée de 250 à 203
+
+Table SYSTEM.AUTISM_SCREENING :
+  Chargement de 946 Lignes effectué.
+  0 Lignes : chargement impossible dû à des erreurs de données.
+  0 Lignes : chargement impossible car échec de toutes les clauses WHEN.
+  0 Lignes : chargement impossible car tous les champs étaient non renseignés.
+
+
+Espace affecté au tableau de variables :                1047480 octets(203 lignes)
+Octets de tampon de lecture : 1048576
+
+Nombre total d'enregistrements logiques ignorés :          1
+Nombre total d'enregistrements logiques lus :           946
+Nombre total d'enregistrements logiques rejetés :         0
+Nombre total d'enregistrements logiques mis au rebut :        0
+
+Le début de l'exécution a été effectué sur Ven. Déc.  19 03:35:48 2025
+La fin de l'exécution a été effectuée sur Ven. Déc.  19 03:35:48 2025
+
+Temps écoulé (ELAPSED) :     00:00:00.38
+Temps processeur (CPU) :    00:00:00.11

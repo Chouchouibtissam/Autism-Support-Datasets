@@ -2,6 +2,8 @@
 Transform.py
 Data cleaning and transformation pipeline for Autism Screening datasets
 """
+import sys
+print("PYTHON UTILISÉ :", sys.executable)
 
 import warnings
 warnings.filterwarnings('ignore')

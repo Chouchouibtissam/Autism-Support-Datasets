@@ -34,10 +34,11 @@ CREATE TABLE autism_screening (
     ethnicity VARCHAR2(50) NOT NULL,
     jaundice VARCHAR2(3) CONSTRAINT jaundice_chk CHECK (jaundice IN ('yes', 'no')) NOT NULL,
     autism VARCHAR2(3) CONSTRAINT autism_chk CHECK (autism IN ('yes', 'no')) NOT NULL,
+    country VARCHAR2(200) NOT NULL,
     result NUMBER CONSTRAINT result_chk CHECK (result >= 0) NOT NULL,
     relation VARCHAR2(50) NOT NULL,
-    age_group VARCHAR2(20) CONSTRAINT age_group_chk CHECK (age_group IN ('child', 'adolescent', 'adult')) NOT NULL,
-    Class_ASD NUMBER(1) CONSTRAINT Class_ASD_chk CHECK (Class_ASD IN (0, 1)) NOT NULL
+    Class_ASD NUMBER(1) CONSTRAINT Class_ASD_chk CHECK (Class_ASD IN (0, 1)) NOT NULL,
+    age_group VARCHAR2(20) CONSTRAINT age_group_chk CHECK (age_group IN ('child', 'adolescent', 'adult')) NOT NULL
 );
 -- Trigger for auto-incrementing ID
 CREATE OR REPLACE TRIGGER autism_screening_id 
@@ -78,8 +79,8 @@ BEGIN
     AND LOWER(country) = LOWER(:new.country)
     AND result = :new.result
     AND LOWER(relation) = LOWER(:new.relation)
-    AND LOWER(age_group) = LOWER(:new.age_group)
-    AND class_asd = :new.class_asd;
+    AND class_asd = :new.class_asd
+    AND LOWER(age_group) = LOWER(:new.age_group);
 
   IF v_exists > 0 THEN
     -- Annule l'insertion si un enregistrement similaire existe déjà

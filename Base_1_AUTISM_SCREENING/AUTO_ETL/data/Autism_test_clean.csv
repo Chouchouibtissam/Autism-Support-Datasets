@@ -159,7 +159,7 @@ a1_score,a2_score,a3_score,a4_score,a5_score,a6_score,a7_score,a8_score,a9_score
 1,1,0,1,1,1,1,0,0,1,8,m,white-european,no,no,armenia,7,parent,1,child
 1,1,1,0,1,1,0,0,1,1,11,m,hispanic,no,no,united states,7,relative,1,child
 1,0,1,0,1,1,1,0,1,0,4,f,white-european,yes,yes,united kingdom,6,parent,0,child
-1,1,1,0,0,0,0,0,0,0,4,m,white-european,no,no,u.s. outlying islands,3,parent,0,child
+1,1,1,0,0,0,0,0,0,0,4,m,white-european,no,no,united states,3,parent,0,child
 1,1,1,1,1,1,0,0,1,1,8,m,black,no,no,australia,8,parent,1,child
 0,0,1,0,1,1,1,1,1,1,4,m,pasifika,no,no,new zealand,7,health care professional,1,child
 0,1,1,1,1,1,1,1,1,1,4,m,south asian,no,no,india,9,parent,1,child
@@ -316,10 +316,10 @@ a1_score,a2_score,a3_score,a4_score,a5_score,a6_score,a7_score,a8_score,a9_score
 1,1,1,1,1,1,1,0,1,0,16,m,asian,no,no,united kingdom,8,parent,1,adolescent
 1,1,1,0,1,0,1,0,1,0,16,m,asian,no,yes,united kingdom,6,self,0,adolescent
 1,1,1,1,1,1,1,0,1,1,14,f,white-european,no,no,south africa,9,parent,1,adolescent
-1,1,0,0,1,0,1,0,0,0,12,m,asian,yes,no,viet nam,4,self,0,adolescent
+1,1,0,0,1,0,1,0,0,0,12,m,asian,yes,no,vietnam,4,self,0,adolescent
 1,1,1,1,1,1,1,1,1,0,14,m,white-european,no,no,united states,9,parent,1,adolescent
 1,0,1,1,0,1,1,1,1,1,16,f,white-european,yes,no,united kingdom,8,parent,1,adolescent
-0,0,1,1,0,1,0,1,1,1,13,f,black,no,no,americansamoa,6,parent,0,adolescent
+0,0,1,1,0,1,0,1,1,1,13,f,black,no,no,american samoa,6,parent,0,adolescent
 1,0,0,0,1,1,0,1,0,0,16,m,south asian,no,no,comoros,4,self,0,adolescent
 1,1,1,0,1,1,1,0,1,1,16,m,asian,no,no,portugal,8,relative,1,adolescent
 1,1,0,1,1,1,0,0,1,0,15,m,white-european,no,no,croatia,6,self,0,adolescent
@@ -479,7 +479,7 @@ a1_score,a2_score,a3_score,a4_score,a5_score,a6_score,a7_score,a8_score,a9_score
 1,1,0,0,1,1,1,1,0,1,37,f,others,no,no,united states,7,self,1,adult
 1,1,1,1,1,0,1,1,1,0,35,m,white-european,yes,yes,united states,8,self,1,adult
 0,0,0,0,1,0,0,1,0,0,26,m,asian,no,no,new zealand,2,self,0,adult
-0,1,1,1,1,0,1,1,0,1,23,m,asian,no,no,viet nam,7,self,1,adult
+0,1,1,1,1,0,1,1,0,1,23,m,asian,no,no,vietnam,7,self,1,adult
 1,1,0,0,1,0,0,0,0,1,32,f,south asian,no,no,new zealand,4,self,0,adult
 0,0,1,0,1,0,1,0,1,1,30,m,asian,no,no,sri lanka,5,self,0,adult
 1,0,0,0,1,0,1,0,0,1,31,m,asian,no,no,sri lanka,4,self,0,adult
@@ -509,7 +509,7 @@ a1_score,a2_score,a3_score,a4_score,a5_score,a6_score,a7_score,a8_score,a9_score
 1,0,1,0,1,0,0,1,0,1,29,m,middle eastern,no,no,iran,5,self,0,adult
 1,0,1,0,1,0,1,0,0,0,37,m,white-european,no,no,australia,4,self,0,adult
 1,0,0,0,1,0,1,0,0,1,39,f,white-european,no,no,australia,4,self,0,adult
-1,1,1,1,1,0,0,0,0,0,18,f,asian,no,no,viet nam,5,self,0,adult
+1,1,1,1,1,0,0,0,0,0,18,f,asian,no,no,vietnam,5,self,0,adult
 0,1,0,1,1,1,0,1,0,1,31,m,white-european,no,no,united states,6,others,0,adult
 0,0,1,1,1,0,0,0,0,1,34,m,asian,no,no,new zealand,4,self,0,adult
 0,0,1,1,1,0,1,0,0,1,22,m,white-european,no,no,united states,5,self,0,adult
@@ -668,7 +668,7 @@ a1_score,a2_score,a3_score,a4_score,a5_score,a6_score,a7_score,a8_score,a9_score
 1,0,0,1,1,0,1,0,0,1,20,m,middle eastern,no,no,saudi arabia,5,self,0,adult
 1,0,0,0,0,1,0,0,1,0,25,m,middle eastern,yes,yes,armenia,3,relative,0,adult
 1,0,0,0,0,0,0,1,0,0,20,f,middle eastern,no,no,united arab emirates,2,self,0,adult
-1,0,0,0,0,1,1,1,0,1,22,m,middle eastern,no,no,americansamoa,5,self,0,adult
+1,0,0,0,0,1,1,1,0,1,22,m,middle eastern,no,no,american samoa,5,self,0,adult
 0,1,0,0,0,0,0,1,0,0,20,f,middle eastern,no,no,united arab emirates,2,self,0,adult
 1,0,1,1,1,0,0,0,1,1,21,m,middle eastern,no,no,united arab emirates,6,self,0,adult
 0,1,0,0,0,1,0,1,0,1,23,f,middle eastern,no,no,united arab emirates,4,self,0,adult
@@ -728,7 +728,7 @@ a1_score,a2_score,a3_score,a4_score,a5_score,a6_score,a7_score,a8_score,a9_score
 0,1,1,1,1,1,0,1,1,1,18,m,middle eastern,yes,no,new zealand,8,self,1,adult
 1,1,1,1,1,0,0,1,0,0,27,m,latino,no,no,ecuador,6,self,0,adult
 0,0,0,1,0,0,0,0,0,0,52,f,white-european,no,no,united kingdom,1,self,0,adult
-0,0,0,0,0,0,0,1,0,0,45,f,asian,no,no,viet nam,1,self,0,adult
+0,0,0,0,0,0,0,1,0,0,45,f,asian,no,no,vietnam,1,self,0,adult
 0,1,1,1,1,1,0,0,1,0,25,f,others,no,no,afghanistan,6,health care professional,0,adult
 0,0,0,1,0,0,1,0,0,1,29,f,white-european,no,no,united kingdom,3,self,0,adult
 1,1,0,1,1,1,1,1,0,1,29,f,white-european,yes,no,united states,8,self,1,adult
@@ -762,7 +762,7 @@ a1_score,a2_score,a3_score,a4_score,a5_score,a6_score,a7_score,a8_score,a9_score
 1,1,1,1,1,1,1,1,1,1,33,m,latino,no,no,mexico,10,self,1,adult
 1,1,1,1,0,0,1,0,0,1,26,m,white-european,no,no,united kingdom,6,self,0,adult
 1,0,1,1,0,0,0,0,0,0,61,f,white-european,no,no,united states,3,self,0,adult
-0,0,0,1,0,0,0,1,0,1,46,m,others,no,no,viet nam,3,self,0,adult
+0,0,0,1,0,0,0,1,0,1,46,m,others,no,no,vietnam,3,self,0,adult
 0,1,1,1,1,1,1,0,1,1,33,m,asian,no,no,india,8,self,1,adult
 1,1,1,1,1,0,1,1,0,1,38,f,black,no,no,canada,8,self,1,adult
 1,1,0,0,0,0,0,1,0,0,44,m,black,no,no,france,3,parent,0,adult
@@ -777,12 +777,12 @@ a1_score,a2_score,a3_score,a4_score,a5_score,a6_score,a7_score,a8_score,a9_score
 0,1,0,0,0,0,0,0,0,1,40,f,white-european,yes,no,united states,2,self,0,adult
 0,1,1,1,1,1,1,1,0,1,22,f,white-european,no,no,united states,8,self,1,adult
 1,1,1,1,1,1,1,0,1,1,42,m,white-european,no,no,united kingdom,9,self,1,adult
-1,1,1,0,0,0,0,0,0,1,18,f,asian,no,no,viet nam,4,self,0,adult
+1,1,1,0,0,0,0,0,0,1,18,f,asian,no,no,vietnam,4,self,0,adult
 1,0,1,1,0,0,0,0,0,0,44,f,white-european,no,no,united kingdom,3,self,0,adult
 1,1,1,1,1,0,1,1,1,1,30,f,white-european,no,no,united states,9,self,1,adult
 1,1,1,1,1,1,0,1,1,1,42,m,white-european,no,no,australia,9,self,1,adult
 1,1,0,1,0,0,1,0,0,0,35,f,white-european,no,yes,united states,4,parent,0,adult
-1,0,1,1,1,0,1,0,1,1,40,m,black,no,no,americansamoa,7,self,1,adult
+1,0,1,1,1,0,1,0,1,1,40,m,black,no,no,american samoa,7,self,1,adult
 0,0,1,1,0,0,0,0,0,1,38,m,middle eastern,no,no,egypt,3,self,0,adult
 1,1,1,1,1,0,0,1,1,1,26,f,white-european,no,yes,italy,8,self,1,adult
 1,1,1,1,1,0,0,1,0,1,27,f,white-european,no,no,malaysia,7,self,1,adult
